@@ -1,0 +1,56 @@
+Arguments: 
+  /home/arun/.nvm/versions/node/v12.13.0/bin/node /home/arun/.nvm/versions/node/v12.13.0/bin/yarn add netlify-cms-app gatsby-plugin-netlify-cms
+
+PATH: 
+  /home/arun/.nvm/versions/node/v12.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@elegantstack%2fgatsby-theme-flexiblog-education: Not found
+      at Request.params.callback [as _callback] (/home/arun/.nvm/versions/node/v12.13.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/arun/.nvm/versions/node/v12.13.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/home/arun/.nvm/versions/node/v12.13.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/home/arun/.nvm/versions/node/v12.13.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+  	"name": "@elegantstack/gatsby-starter-flexiblog-education",
+  	"private": true,
+  	"version": "3.2.2",
+  	"scripts": {
+  		"develop": "gatsby develop",
+  		"start": "gatsby develop",
+  		"build": "gatsby build",
+  		"clean": "gatsby clean",
+  		"serve": "gatsby serve"
+  	},
+  	"dependencies": {
+  		"@elegantstack/gatsby-theme-flexiblog-education": "*",
+  		"gatsby": "^3.1.2",
+  		"react": "^17.0.2",
+  		"react-dom": "^17.0.2"
+  	},
+  	"devDependencies": {
+  		"prettier": "^2.0.5"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
